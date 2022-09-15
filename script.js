@@ -207,4 +207,3 @@ function restartFunc() {
 }
 
 AddNewRow();
-console.log(answerRand);
