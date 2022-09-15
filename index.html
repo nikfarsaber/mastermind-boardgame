@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>boardgame-mastermind</title>
+  </head>
+  <body>
+    <article>
+      <div class="leftBox">
+        <div class="numberKeyboards">
+          <button class="numberClass1 keyboard" name="numberButton">1</button>
+          <button class="numberClass keyboard" name="numberButton">2</button>
+          <button class="numberClass keyboard" name="numberButton">3</button>
+          <button class="numberClass keyboard" name="numberButton">4</button>
+          <button class="numberClass keyboard" name="numberButton">5</button>
+          <button class="numberClass keyboard" name="numberButton">6</button>
+          <button class="numberClass keyboard" name="numberButton">7</button>
+          <button class="numberClass keyboard" name="numberButton">8</button>
+          <button class="numberClass keyboard" name="numberButton">9</button>
+          <button class="action keyboard" name="left">&lt;</button>
+          <button class="numberClass keyboard" name="numberButton">0</button>
+          <button class="action keyboard" name="right">&gt;</button>
+          <button class="action keyboard submit" name="submit">submit</button>
+        </div>
+        <button class="action restart" onclick="restartFunc()" name="restart">
+          restart
+        </button>
+      </div>
+      <div class="fromClass" id="formClass"></div>
+      <div class="resultform"></div>
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>
